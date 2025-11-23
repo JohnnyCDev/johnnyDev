@@ -378,7 +378,7 @@ const Competencies: React.FC<SectionProps> = ({ themeClasses }) => {
     return (
         <section id="competencies" className={`py-20 ${themeClasses.sectionBg1} transition-colors duration-500`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className={`text-4xl font-bold text-center ${themeClasses.cardTitle} mb-4 text-teal-500`}>
+                <h2 className={`text-4xl font-bold text-center ${themeClasses.cardTitle} mb-4`}>
                     Core Competencies
                 </h2>
                 <p className={`text-xl ${themeClasses.heroText} mb-12 text-center max-w-3xl mx-auto`}>
@@ -392,7 +392,7 @@ const Competencies: React.FC<SectionProps> = ({ themeClasses }) => {
                             className={`p-6 rounded-xl border shadow-lg ${cardClass} ${card.className}`}
                         >
                             {/* Card Title (e.g., Frameworks) */}
-                            <h3 className={`text-2xl font-semibold text-teal-500 mb-4 pb-2 border-b ${themeClasses.headerBorder}`}>
+                            <h3 className={`text-2xl font-semibold mb-4 pb-2 border-b ${themeClasses.headerBorder}`}>
                                 {card.title}
                             </h3>
                             <div className="flex flex-wrap gap-2">
@@ -481,13 +481,13 @@ const CallToAction: React.FC<SectionProps> = ({ themeClasses }) => (
 );
 
 const Footer: React.FC<SectionProps> = ({ themeClasses }) => (
-  <footer className={`py-10 ${themeClasses.sectionBg2} border-t ${themeClasses.footerBorder} transition-colors duration-500`}>
+  <footer className={`py-4 ${themeClasses.sectionBg2} border-t ${themeClasses.footerBorder} transition-colors duration-500`}>
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <div className={`text-2xl font-extrabold tracking-tight ${themeClasses.footerText}`}>JNC<span className="text-teal-400">.dev</span></div>
+      <div className={`text-2xl font-extrabold tracking-tight ${themeClasses.footerText}`}>JNC<span className="text-teal-400">.Web Service</span></div>
       <p className={`mt-3 text-sm ${themeClasses.footerSubtext}`}>
-        © {new Date().getFullYear()} JNC Web Development Services. Built with Next.js and Tailwind CSS.
+      Copyright © {new Date().getFullYear()} JNC Web Development Services. All rights reserved.
       </p>
-      <div className="mt-4 space-x-4 text-sm">
+      <div className="mt-4 space-x-4 text-sm hidden">
         <a href="#" className={themeClasses.footerLink}>Privacy Policy</a>
         <span className={themeClasses.footerSubtext}>|</span>
         <a href="#" className={themeClasses.footerLink}>Terms of Service</a>
