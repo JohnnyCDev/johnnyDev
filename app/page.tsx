@@ -157,7 +157,7 @@ const Header: React.FC<HeaderProps> = ({ theme, toggleTheme, themeClasses }) => 
           onClick={handleSmoothScroll}
           className={`text-3xl font-extrabold tracking-tight ${themeClasses.headerLogo} z-50 cursor-pointer`}
         >
-          JNC<span className="text-teal-400">.</span>Web Service
+          JNC<span className="text-teal-400">.</span>Web Services
         </a>
 
         {/* Desktop Navigation and Buttons */}
@@ -483,7 +483,7 @@ const CallToAction: React.FC<SectionProps> = ({ themeClasses }) => (
 const Footer: React.FC<SectionProps> = ({ themeClasses }) => (
   <footer className={`py-4 ${themeClasses.sectionBg2} border-t ${themeClasses.footerBorder} transition-colors duration-500`}>
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <div className={`text-2xl font-extrabold tracking-tight ${themeClasses.footerText}`}>JNC<span className="text-teal-400">.Web Service</span></div>
+      <div className={`text-2xl font-extrabold tracking-tight ${themeClasses.footerText}`}>JNC<span className="text-teal-400">.Web Services</span></div>
       <p className={`mt-3 text-sm ${themeClasses.footerSubtext}`}>
       Copyright © {new Date().getFullYear()} JNC Web Development Services. All rights reserved.
       </p>
